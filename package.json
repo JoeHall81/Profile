@@ -20,5 +20,10 @@
   "homepage": "https://github.com/JoeHall81/Profile#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "popper": "^1.0.1"
   }
 }
