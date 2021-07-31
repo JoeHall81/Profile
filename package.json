@@ -1,0 +1,24 @@
+{
+  "name": "profileproject",
+  "version": "1.0.0",
+  "description": "Bootstrap Profile Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeHall81/Profile.git"
+  },
+  "author": "Joe Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeHall81/Profile/issues"
+  },
+  "homepage": "https://github.com/JoeHall81/Profile#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
