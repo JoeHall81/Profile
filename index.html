@@ -16,6 +16,7 @@
 <body>
     <!--ToDo List:
         1. simple background
+            1a. create 3 div's with specified height based on screen (div 1 = 2,3,4,5,6 div 2 = 7 div 3 = 8,9)
         2. centered picture (circle)
         3. short discription
         4. Nav bar (transparent backgroud untill page scroll, sticky top)
@@ -26,8 +27,35 @@
         9. links to github, codepen
     -->
 
+    <nav class="navbar navbar-expand fixed-top navbg transition">
+        <div class="container-fluid">
+            <div class="row">
+                <a role="button" class="btn btn-link ml-auto" href="mailto:joe.ithelp@gmail.com">Joe.ITHelp@Gmail.com</a>
+            </div>
+        </div>
+    </nav>
 
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <div id="introSection" class="container">
+        <div class="row">
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="projectSection"></div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
